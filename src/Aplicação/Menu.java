@@ -1,5 +1,8 @@
 package Aplicação;
 
+import java.sql.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -7,6 +10,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import Entidades.Cores;
 import Entidades.Opcoes;
+import Entidades.ProdutoFitness;
 
 public class Menu extends Opcoes {
 
@@ -15,9 +19,10 @@ public class Menu extends Opcoes {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int opcao, pedido;
-		float preco;
-		String selecao;
+		int opcao, tipo, quantidade;
+		String nome;
+		float valor;
+		String dataValidade;
 
 		while (true) {
 
@@ -40,7 +45,6 @@ public class Menu extends Opcoes {
 
 			switch (opcao) {
 			case 1:
-				System.out.println("Cadastrar Item\n\n");
 				
 				keyPress();
 				break;
