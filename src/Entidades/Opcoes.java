@@ -6,18 +6,18 @@ public class Opcoes {
 
 	public static void MenuMarmitaria() {
 
-		System.out.println(Cores.TEXT_CYAN_BOLD + Cores.ANSI_BLACK_BACKGROUND
+		System.out.println(Cores.TEXT_WHITE_BOLD_BRIGHT + Cores.ANSI_BLACK_BACKGROUND
 				+ "***********************************************");
 		System.out.println("                                               ");
 		System.out.println("                   MARMITARIAS JP              ");
 		System.out.println("                                               ");
 		System.out.println("***********************************************");
 		System.out.println("                                               ");
-		System.out.println("            1 - Cadastrar Item                 ");
-		System.out.println("            2 - Listar todos os Itens          ");
-		System.out.println("            3 - Buscar Item por Número	       ");
-		System.out.println("            4 - Atualizar dados do Item	       ");
-		System.out.println("            5 - Apagar item         	       ");
+		System.out.println("            1 - Cadastrar Produto              ");
+		System.out.println("            2 - Listar todos os Produtos       ");
+		System.out.println("            3 - Buscar Produto por Número      ");
+		System.out.println("            4 - Atualizar dados do Produto     ");
+		System.out.println("            5 - Apagar Produto         	       ");
 		System.out.println("            6 - Sair                           ");
 		System.out.println("                                               ");
 		System.out.println("***********************************************");

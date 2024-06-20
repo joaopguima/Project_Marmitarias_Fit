@@ -1,11 +1,14 @@
 package Repository;
 
-public interface PedidoRepository {
+import Entidades.Produto;
+
+public interface ProdutoRepository {
 
 	// CRUD do pedido
 	public void procurarPorNumero(int numero);
 	public void listarTodos();
-	public void cadastrar();
-	public void atualizar();
+	public void cadastrar(Produto produto);
+	public void atualizar(Produto produto);
 	public void deletar(int numero);
+
 }

@@ -1,14 +1,12 @@
 package Entidades;
 
-import java.sql.Date;
-
 public class ProdutoComum extends Produto{
 
-	public ProdutoComum(String nome, int quantidade, int tipo, float valor, String dataValidade) {
-		super(nome, quantidade, tipo, valor, dataValidade);
-		
+	public ProdutoComum(int idProduto, String nome, int quantidade, int tipo, float valor, String dataValidade) {
+		super(idProduto, nome, quantidade, tipo, valor, dataValidade);
+		// TODO Auto-generated constructor stub
 	}
-	
+
 	@Override
 	public void visualizar() {
 		super.visualizar();
